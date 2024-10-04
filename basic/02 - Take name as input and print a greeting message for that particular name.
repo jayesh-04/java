@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class gihub {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter A Name -");
+		String name = sc.next();
+		System.out.println("\r\n"
+				+ "Hello "+name+"!\r\n"
+				+ "\r\n"
+				+ "I hope you're doing well. It's great to connect with you today!");
+//		System.out.println(" ");
+// 		Simple Way
+//		System.out.println("Hello "+name+" ! \n\nI hope you're doing well. It's great to connect with you today!");
+	}
+}
