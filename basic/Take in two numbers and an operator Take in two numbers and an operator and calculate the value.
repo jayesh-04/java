@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[] args) {
+		System.out.println("Enter Two Numbers - ");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		System.out.println("Enter Operator(+,-,*,/,%) - ");
+		String op = sc.next();
+		int total=0;
+		
+		if (op.equals("+")) {
+			total = a+b;
+		}
+		else if (op.equals("-")) {
+			total=a-b;
+		}
+		else if (op.equals("*")){
+			total=a*b;
+		}
+		else if (op.equals("/")) {
+			if (b!=0) {
+				total=a/b;
+			}else {
+				System.out.println("Number can not be divisble by 0");
+				return;
+			}
+		}
+		else if (op.equals("%")) {
+			total=a%b;
+		}else {
+			System.out.println("Enter Valid Operator");
+			return;
+		}
+		
+		System.out.println("Total is "+total);
+	}
+}
