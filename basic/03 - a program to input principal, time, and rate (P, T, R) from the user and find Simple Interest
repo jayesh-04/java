@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[] args) {
+		System.out.println("To Calculate Simple Interest Enter -");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Principal Amount - ");
+		int p = sc.nextInt();
+		System.out.print("Enter Rate of Interest - ");
+		float r = sc.nextFloat();
+		System.out.print("Enter Time Period(in years) - ");
+		int t = sc.nextInt();
+		
+		float total = (p*r*t)/100;
+		System.out.println("Simple Interet is "+total);
+	}
+}	
