@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[]args ) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Amount in Rupees - ");
+		float rup = sc.nextFloat();
+		float dol = rup * 0.012f;
+		System.out.println("Amount in U.S. Dollar is "+dol);
+	}
+}
