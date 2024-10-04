@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[]args ) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter A Height and Width of Triangle - ");
+		float h = sc.nextFloat();
+		float w = sc.nextFloat();
+		float area = 0.5f*(h*w);
+		System.out.println("Area of Triangle is "+area);
+	}
+}
