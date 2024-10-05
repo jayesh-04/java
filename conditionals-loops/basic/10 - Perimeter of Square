@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Side of Square - ");
+		float s = sc.nextFloat();
+		float peri =s*4;
+		System.out.println("Perimeter of Square is "+peri);
+	}
+}
