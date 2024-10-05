@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Radius and Height of Cone - ");
+		float r = sc.nextFloat();
+		float h = sc.nextFloat();
+		float vol = (1.0f/3)*3.14f*r*r*h;
+		System.out.println("Volume of Cone is "+vol);
+	}
+}
