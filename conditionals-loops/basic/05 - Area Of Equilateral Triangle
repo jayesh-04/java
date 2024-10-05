@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter A Side Length Of A Triangle - ");
+		double side = sc.nextDouble();
+		
+		double area = Math.sqrt(3)/4 * Math.pow(side, 2);
+		System.out.println("Area of is equilateral triangle is "+area);
+	}
+}
