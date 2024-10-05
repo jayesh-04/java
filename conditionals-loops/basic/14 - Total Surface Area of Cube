@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Side of Cube - ");
+		float side = sc.nextFloat();
+		float area = 6*side*side;
+		System.out.println("Total Surface Area of Cube is "+area+" sq units");
+	}
+}
