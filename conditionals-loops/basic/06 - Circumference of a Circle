@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Radius of Circle - ");
+		float rad = sc.nextFloat();
+		float cir = 2*3.14f*rad;
+		System.out.println("Circumfurence of Circle is "+cir);
+	}
+}
