@@ -5,7 +5,7 @@ public class gihub{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Side of Equilateral Triangle - ");
 		float side = sc.nextFloat();
-		float area = 3*side;
-		System.out.println("Perimeter of Equilateral Triangle is "+area);
+		float peri = 3*side;
+		System.out.println("Perimeter of Equilateral Triangle is "+peri);
 	}
 }
