@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class gihub{
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Height and Base of Parallelogram - ");
+		float h = sc.nextFloat();
+		float b =sc.nextFloat();
+		System.out.println("Perimeter of Equilateral Triangle is "+(2*(h+b)));
+	}
+}
